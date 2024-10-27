@@ -13,7 +13,7 @@ namespace Bloxstrap.AppData
         private IReadOnlyDictionary<string, string> _commonMap { get; } = new Dictionary<string, string>()
         {
             { "Libraries.zip",                 @"" },
-            { "redist.zip",                    @"" },
+            // redist.zip supposed to be here but na :3 | https://github.com/bloxstraplabs/bloxstrap/commit/1f1d8257ecafef5df49869ccdb58f915dd7b297a
             { "shaders.zip",                   @"shaders\" },
             { "ssl.zip",                       @"ssl\" },
 
